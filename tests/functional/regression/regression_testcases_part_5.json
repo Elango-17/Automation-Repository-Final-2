@@ -1,0 +1,21 @@
+{
+  "root": "tests/functional",
+  "category": "regression",
+  "part": 5,
+  "total_parts": 5,
+  "count": 1,
+  "testcases": [
+    {
+      "Summary": "TC-0048: Addition of -72 and 301",
+      "Name": "Addition: -72 + 301",
+      "Issue Type": "Test",
+      "Priority": "High",
+      "Labels": "calculator,functional,regression,automation-candidate",
+      "Components": "CalculatorApp",
+      "Test Steps": "1. Enter -72\n2. Press +\n3. Enter 301\n4. Press =",
+      "Expected Result": "Display shows 229",
+      "Body": "Test Name: Addition: -72 + 301\n\nPreconditions:\n- Calculator is launched\n- Standard mode is selected\n- Memory is cleared\n\nTest Steps:\n1. Enter -72\n2. Press +\n3. Enter 301\n4. Press =\n\nExpected Result:\n- Display shows 229",
+      "Description": "Test Name: Addition: -72 + 301\n\nPreconditions:\n- Calculator is launched\n- Standard mode is selected\n- Memory is cleared\n\nTest Steps:\n1. Enter -72\n2. Press +\n3. Enter 301\n4. Press =\n\nExpected Result:\n- Display shows 229"
+    }
+  ]
+}
